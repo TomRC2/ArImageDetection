@@ -23,9 +23,9 @@ MonoBehaviour:
     m_SerializedTextureGuid:
       m_GuidLow: 13759714888257202401
       m_GuidHigh: 16244361113788869944
-    m_Size: {x: 0, y: 0}
-    m_SpecifySize: 0
-    m_Name: 7_OVATarot_TheChariot
+    m_Size: {x: 0.1, y: 0.14530538}
+    m_SpecifySize: 1
+    m_Name: SIlverChariot
     m_Texture: {fileID: 0}
   - m_SerializedGuid:
       m_GuidLow: 5630016492615092961
@@ -33,9 +33,9 @@ MonoBehaviour:
     m_SerializedTextureGuid:
       m_GuidLow: 11350408506042796803
       m_GuidHigh: 14131432410769596729
-    m_Size: {x: 0, y: 0}
-    m_SpecifySize: 0
-    m_Name: 17_OVATarot_TheStar
+    m_Size: {x: 0.1, y: 0.14489052}
+    m_SpecifySize: 1
+    m_Name: StarPlatinum
     m_Texture: {fileID: 0}
   - m_SerializedGuid:
       m_GuidLow: 5320662611710006690
@@ -43,7 +43,7 @@ MonoBehaviour:
     m_SerializedTextureGuid:
       m_GuidLow: 18123758785101004141
       m_GuidHigh: 8366971341212891515
-    m_Size: {x: 0, y: 0}
-    m_SpecifySize: 0
-    m_Name: 21_OVATarot_TheWorld
+    m_Size: {x: 0.1, y: 0.14254938}
+    m_SpecifySize: 1
+    m_Name: TheWorld
     m_Texture: {fileID: 0}
