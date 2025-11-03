@@ -2,6 +2,7 @@ using UnityEngine;
 using UnityEngine.XR.ARFoundation;
 using UnityEngine.XR.ARSubsystems;
 using System.Collections.Generic;
+using System.Collections;
 
 public class ShowStandOnImage : MonoBehaviour
 {
@@ -23,7 +24,6 @@ public class ShowStandOnImage : MonoBehaviour
             spawnedStands.Add(stand.imageName, obj);
         }
     }
-
     private void OnChanged(ARTrackedImagesChangedEventArgs args)
     {
         foreach (var trackedImage in args.updated)
@@ -33,7 +33,7 @@ public class ShowStandOnImage : MonoBehaviour
                 if (trackedImage.trackingState == TrackingState.Tracking)
                 {
                     stand.transform.position = trackedImage.transform.position;
-                    stand.transform.rotation = trackedImage.transform.rotation;
+                    stand.transform.rotation = trackedImage.transform.rotation * Quaternion.Euler(0f, 180f, 0f);
                     stand.SetActive(true);
                 }
                 else
